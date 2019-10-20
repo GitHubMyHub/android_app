@@ -1,0 +1,23 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ShoppingListsActivity">
+
+    <item
+        android:id="@+id/selectItems"
+        android:icon="@drawable/ic_toggle_black"
+        android:orderInCategory="101"
+        android:title="@string/menu_trash"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/trashCan"
+        android:icon="@drawable/ic_delete_black"
+        android:orderInCategory="101"
+        android:title="@string/menu_trash_all"
+        app:showAsAction="ifRoom">
+    </item>
+
+</menu>

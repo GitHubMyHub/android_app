@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listSingleLayoutMaking"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imgViewMakingImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/image_title"
+        app:srcCompat="@color/icons" />
+
+    <ImageView
+        android:id="@+id/imgViewMakingImageStep"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/image_title"
+        android:background="@android:color/transparent"
+        app:srcCompat="@color/icons" />
+
+    <TextView
+        android:id="@+id/txtDeviceViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imgViewMakingImage"
+        android:text="@string/device_name"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblMakingViewTimeDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDeviceViewName"
+        android:layout_toEndOf="@+id/imgViewMakingImage"
+        android:text="@string/making_duration"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblMakingViewTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtMakingViewStep"
+        android:layout_alignBottom="@+id/txtMakingViewStep"
+        android:layout_toEndOf="@+id/imgViewMakingImage"
+        android:text="@string/making_temp"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMakingViewStep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtMakingViewTime"
+        android:layout_below="@+id/lblMakingViewTimeDuration"
+        android:text="@string/making_step"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txtMakingViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblMakingViewTimeDuration"
+        android:layout_alignBottom="@+id/lblMakingViewTimeDuration"
+        android:layout_marginStart="68dp"
+        android:layout_toEndOf="@+id/imgViewMakingImage"
+        android:text="@string/making_time"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMakingViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMakingViewStep"
+        android:layout_toEndOf="@+id/imgViewMakingImage"
+        android:text="@string/making_description"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp" />
+
+</RelativeLayout>

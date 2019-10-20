@@ -1,0 +1,411 @@
+<resources>
+
+    <!-- Firebase -->
+    <string name="sign_out">Sign out</string>
+    <string name="disconnect">Delete Account</string>
+
+    <string name="status">Status</string>
+    <string name="signed_in_header">You are signed in!</string>
+    <string name="delete_account_label">Delete account</string>
+    <string name="user_profile_header">User profile:</string>
+    <string name="profile_picture_content_desc">Profile picture</string>
+    <string name="idp_token">IDP Token</string>
+    <string name="idp_secret">IDP Secret</string>
+    <string name="login_twitter">Twitter Login</string>
+    <string name="login_email_wrong">Please enter a valid Email address.</string>
+
+    <!-- Firebase -->
+
+    <string name="app_name">ProCheck</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_shutdown">Shutdown</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message_internet">No Internet connection</string>
+
+    <string name="news_position">#1</string>
+    <string name="news_image">Image for News</string>
+    <string name="news_title">Title</string>
+    <string name="news_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin ultrices non eget velit. Aliquam eu pulvinar enim. Praesent libero nisl, ultricies vel maximus eu, maximus et nisi. Phasellus pharetra nec ligula vitae mollis. Quisque porttitor ornare magna, quis dignissim libero aliquam id. Donec sollicitudin ultrices ante, a semper erat tristique in. Vivamus sodales in ligula at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempus bibendum nibh, ac tincidunt quam convallis non. Proin dolor nunc, egestas et tortor consequat, dignissim lacinia odio. Ut ut aliquet erat.  Ut non scelerisque elit. Morbi dolor neque, iaculis eu justo rutrum, aliquet dictum mauris. Phasellus quis massa ut ligula feugiat congue a et dolor. Etiam a dui a sapien ornare accumsan ac ut lorem. Suspendisse vehicula lorem dapibus nibh rhoncus ultricies. Proin sem nulla, elementum quis pharetra quis, commodo vitae nisi. Donec urna orci, posuere et iaculis sit amet, fringilla quis sapien. Pellentesque nec posuere felis. Praesent malesuada tellus nisi, non dictum justo interdum eget. Quisque mollis euismod libero, non aliquam lorem interdum vitae. Aliquam vehicula efficitur purus eget rutrum. Sed pulvinar fermentum risus ac viverra. Cras laoreet ligula quam, ac lacinia nisl elementum in. Aenean velit arcu, euismod a venenatis non, pulvinar pulvinar massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin ultrices non eget velit. Aliquam eu pulvinar enim. Praesent libero nisl, ultricies vel maximus eu, maximus et nisi. Phasellus pharetra nec ligula vitae mollis. Quisque porttitor ornare magna, quis dignissim libero aliquam id. Donec sollicitudin ultrices ante, a semper erat tristique in. Vivamus sodales in ligula at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempus bibendum nibh, ac tincidunt quam convallis non. Proin dolor nunc, egestas et tortor consequat, dignissim lacinia odio. Ut ut aliquet erat.  Ut non scelerisque elit. Morbi dolor neque, iaculis eu justo rutrum, aliquet dictum mauris. Phasellus quis massa ut ligula feugiat congue a et dolor. Etiam a dui a sapien ornare accumsan ac ut lorem. Suspendisse vehicula lorem dapibus nibh rhoncus ultricies. Proin sem nulla, elementum quis pharetra quis, commodo vitae nisi. Donec urna orci, posuere et iaculis sit amet, fringilla quis sapien. Pellentesque nec posuere felis. Praesent malesuada tellus nisi, non dictum justo interdum eget. Quisque mollis euismod libero, non aliquam lorem interdum vitae. Aliquam vehicula efficitur purus eget rutrum. Sed pulvinar fermentum risus ac viverra. Cras laoreet ligula quam, ac lacinia nisl elementum in. Aenean velit arcu, euismod a venenatis non, pulvinar pulvinar massa.</string>
+    <string name="news_page">Page</string>
+    <string name="news_creationtime">7 Jan</string>
+    <string name="news_edittime">12 Jan</string>
+
+    <!-- Submenu (three dots) -->
+    <string name="dropdown_menu">Dropdown-Menu</string>
+    <string name="menu_trash">Move to trash</string>
+    <string name="menu_trash_all">Move all to trash</string>
+    <string name="menu_search">Search article</string>
+
+
+    <!-- Permissions -->
+    <string name="permission_title_1">We need some permissions to run this APP!</string>
+    <string name="permission_title_2">Dropdown-Menu</string>
+    <string name="permission_title_3">You have declined the required permissions, please grant them from your phone settings.</string>
+    <string name="permission_title_4">You have granted all required permissions!</string>
+    <string name="permission_title_5">Permissions Required</string>
+
+    <!-- Bottom News Button -->
+    <string name="bottom_button">more News...</string>
+
+    <!-- Profile -->
+    <string name="profil_username">Username</string>
+    <string name="profil_email">user@email.de</string>
+
+
+    <string name="left_nav_news">News</string>
+    <string name="left_nav_scan">Scan Article</string>
+    <string name="left_nav_settings">Settings</string>
+    <string name="left_nav_testscan">Test-Scan</string>
+    <string name="left_nav_camera">Camera</string>
+    <string name="left_nav_login">Login</string>
+
+    <!-- Left Menu Pane -->
+    <string name="left_nav_divider_1">Account</string>
+    <string name="left_nav_divider_2">Communicate</string>
+
+    <!-- Profile Menu Pane -->
+    <string name="left_nav_profile">Profile</string>
+    <string name="left_nav_shopping_list">Shopping List</string>
+    <string name="nav_pantry_list">Stock</string>
+    <string name="nav_ingredients_list">Ingredients-Filter</string>
+    <string name="nav_filter_list">Filters</string>
+    <string name="left_nav_favorites">Favorites</string>
+    <string name="left_nav_logout">Logout</string>
+
+    <!-- Communication -->
+    <string name="left_nav_share">Share</string>
+    <string name="left_nav_impressum">Impressum</string>
+
+
+    <string name="no_entry">No entry found</string>
+    <string name="no_authentication">No or invalid API Key</string>
+
+    <!-- SETTINGS -->
+    <string name="option_write">Write permission (not editable)</string>
+    <string name="option_read">Read permission (not editable)</string>
+    <string name="option_internet">Internet permission (not editable)</string>
+    <string name="option_torch">Scanner flashlight</string>
+
+    <string name="option_clear_cache">Clear cache</string>
+    <string name="button_clear">Clear</string>
+    <string name="toast_clear_cache">Cache erased</string>
+
+
+    <!-- FILTERS DEUTSCH -->
+    <string name="option_filter_1">Nur RSPO Palmöl (RSPO Zertifiziert)</string>
+    <string name="option_filter_2">Kein Palmöl (Ohne Palmöl als Zutat)</string>
+    <string name="option_filter_3">Vegetarisch (Vegetarisch zertifiziert)</string>
+    <string name="option_filter_4">Vegetarisch (Vegetarisch laut Zutatenliste)</string>
+    <string name="option_filter_5">Vegan (Vegan zertifiziert)</string>
+    <string name="option_filter_6">Vegan (Vegan laut Zutatenliste)</string>
+    <string name="option_filter_7">Ohne zugesetzten Zucker (laut Zutatenliste)</string>
+    <string name="option_filter_8">Gluten frei (Glutenfrei zertifiziert)</string>
+    <string name="option_filter_9">Laktose frei (Laktosefrei zertifiziert)</string>
+
+    <!-- FILTERS ENGLISH -->
+    <!--<string name="option_filter_1">Only RSPO Palm oil (RSPO certificated)</string>
+    <string name="option_filter_2">No Palm oil (Without Palm oil as ingredient)</string>
+    <string name="option_filter_3">Vegetarian (Vegetarian certificated)</string>
+    <string name="option_filter_4">Vegetarian (Vegetarian according to the ingredients)</string>
+    <string name="option_filter_5">Vegan (Vegan certificated)</string>
+    <string name="option_filter_6">Vegan (Vegan according to the ingredients)</string>
+    <string name="option_filter_7">Without sugar supplement (according to the ingredients)</string>
+    <string name="option_filter_8">Gluten free (Gluten free certificated)</string>
+    <string name="option_filter_9">Lactose free (Lactose free certificated)</string>-->
+
+    <!-- LOGIN -->
+    <string name="login_authentification">Authenticating...</string>
+    <string name="login_success">Login successful</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_image">Logo</string>
+    <string name="login_no_account">No account yet? Create one</string>
+    <string name="login_username_wrong">between 4 and 10 alphanumeric characters</string>
+    <string name="login_password_wrong">between 4 and 10 alphanumeric characters</string>
+    <string name="login_title">Login</string>
+
+    <!-- SIGNUP -->
+    <string name="signup_name">Name</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_create_account_btn">Create Account</string>
+    <string name="signup_already_member">Already a member? Login</string>
+    <string name="signup_image">Logo</string>
+    <string name="signup_title">Registration</string>
+
+
+    <string name="signup_create_account">Creating Account...</string>
+    <string name="signup_failed">Account not created</string>
+    <string name="signup_success">Account created</string>
+    <string name="signup_name_wrong">at least 3 characters</string>
+    <string name="signup_email_wrong">enter a valid email address</string>
+    <string name="signup_password_wrong">between 4 and 10 alphanumeric characters</string>
+    <string name="signup_password_equal">Password is not equal</string>
+
+    <!-- IMPRESSUM -->
+    <string name="hello_impressum_fragment">Fragment</string>
+
+    <!-- ARTICLE DETAILS -->
+
+    <string name="api_key">kqRjhKm46hkqdwshJhCGtsyNSdVK72iB</string>
+    <string name="twitter_consumer_key">TUuvMUJWv1ApGj6fr8zyttcxG</string>
+    <string name="twitter_consumer_secret">3gJhg0YX8OjShs0bxG45AWnfp5N1pV0n0nJcwmACFg9FjgvB7q</string>
+
+    <string name="image_key_left">Image Key Left</string>
+    <string name="image_key_right">Image Key Right</string>
+
+    <!-- Allergenic -->
+    <string name="allergenic_image">Image for the allergenic alert</string>
+    <string name="allergenic_message">The chosen article violates the following filter citeria:</string>
+
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="barcode">Barcode</string>
+    <string name="description">Description</string>
+    <string name="preparation">No Preparation</string>
+    <string name="traces">No Traces</string>
+    <string name="site">www.google.de</string>
+
+    <!-- Labels -->
+    <string name="label_name">Name</string>
+    <string name="label_description">Description</string>
+    <string name="label_preparation">Preparation</string>
+    <string name="label_traces">Traces</string>
+    <string name="label_site">Website</string>
+    <string name="label_lipid">Lipid</string>
+    <string name="label_totLipid">Lipid Sat.</string>
+    <string name="label_sugar">Sugar</string>
+    <string name="label_salt">Salt</string>
+    <string name="label_count">1g</string>
+
+    <!-- Title -->
+    <string name="article_allergenic">Allergenic</string>
+    <string name="article_title">Article</string>
+    <string name="article_brand">Brand</string>
+    <string name="article_nutrition">Nutrition</string>
+    <string name="article_rating">Rating</string>
+    <string name="article_zertificate">Zertificate</string>
+    <string name="article_company">Company</string>
+    <string name="article_recycling">Recycling</string>
+    <string name="article_ingredients">Ingredients</string>
+    <string name="article_making">Making</string>
+    <string name="article_store">Store</string>
+
+
+    <!-- Ingredients -->
+    <string name="ingredients_name">No component</string>
+    <string name="ingredients_quantity">1</string>
+    <string name="ingredients_unit_tag">n.A.</string>
+
+
+    <!-- Nutrition -->
+    <string name="menge_1">Quantity</string>
+    <string name="menge_2">1 n.A.</string>
+    <string name="menge_3">250n.A.</string>
+    <string name="menge_4">Reference-Quantity in %</string>
+
+
+    <string name="kcal">kCal</string>
+    <string name="kJ">kJ</string>
+    <string name="fett">Lipid</string>
+    <string name="ges_fette">Sat. Fat</string>
+    <string name="kohlenhydrate">Carbohydrates</string>
+    <string name="zucker">Sugar</string>
+    <string name="proteine">Protein</string>
+    <string name="salz">Salt</string>
+
+    <!-- Nutrition Values -->
+    <string name="one">1</string>
+    <string name="three">3</string>
+    <string name="zero">0</string>
+
+    <string name="oneg">1g</string>
+    <string name="threeg">3g</string>
+    <string name="fifteeng">15g</string>
+
+
+    <!-- Images Descriptions -->
+    <string name="image_title">Image</string>
+
+
+    <!-- Brand -->
+    <string name="brand_image">Image for Brand</string>
+    <string name="brand_name">No Brand</string>
+    <string name="brand_description">No Brand is a Great company</string>
+
+    <!-- Company -->
+    <string name="company_image">Image for Company</string>
+    <string name="company_name">No Company</string>
+    <string name="company_description">No Company is a Great company</string>
+
+    <!-- Certificate -->
+    <string name="zertificate_image">Image for Zertificate</string>
+    <string name="zertificate_name">No Zertificate</string>
+    <string name="zertificate_description">No Zertificate description</string>
+
+    <!-- Making -->
+    <string name="making_image">Image for Food-Preperation</string>
+    <string name="device_name">Frying</string>
+    <string name="making_step">1°C</string>
+    <string name="making_time">00:15</string>
+    <string name="making_duration">Dauer</string>
+    <string name="making_temp">Temp</string>
+    <string name="making_description">Put the Turkey without the plastic in the microwave.</string>
+
+    <!-- Store -->
+    <string name="store_image">Image how to store article</string>
+    <string name="store_name">Fridge</string>
+    <string name="store_temp">bei 7 Grad halbar bis siehe Packung</string>
+    <string name="store_howToStore">Lagerung: </string>
+    <string name="store_storeType">lichteinfluß</string>
+
+    <!-- Recycling -->
+    <string name="recycling_image">Image for Recycling</string>
+    <string name="recycling_name">No Recycling</string>
+    <string name="recycling_description">No Recycling description</string>
+
+    <!-- Trash -->
+    <!-- Recycling -->
+    <string name="trash_image">Image for Trashtype</string>
+    <string name="trash_name">No Trash</string>
+
+    <string name="title_activity_flipper">FlipperActivity</string>
+    <string name="title_activity_view_pager">ViewPager</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_firebase">FirebaseActivity</string>
+    <string name="title_activity_twitter_login">TwitterLoginActivity</string>
+    <string name="title_activity_auth_ui">AuthUiActivity</string>
+    <string name="title_activity_google_sign_in">GoogleSignInActivity</string>
+    <string name="title_favorites">FavoritesActivity</string>
+    <string name="title_shopping_lists">ShoppingListsActivity</string>
+
+    <!-- AUTH NEW -->
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="twitter_title_text">Twitter Sign In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+
+    <!-- Favorites -->
+    <string name="favorite_title">Favorites</string>
+    <string name="favorite_added">Added to favorites</string>
+    <string name="favorite_removed">Removed from favorites</string>
+    <string name="article_id">1</string>
+    <string name="article_name">Article Name</string>
+    <string name="user_id">1</string>
+
+    <!-- ShoppingLists -->
+    <string name="shopping_lists_title">Shopping-Lists</string>
+    <string name="shopping_lists_no_name">Please enter a name</string>
+    <string name="shopping_lists_id">1</string>
+    <string name="shopping_lists_name">Meine Liste 1</string>
+    <string name="shopping_lists_bought">2</string>
+    <string name="shoppingListName">Name</string>
+    <string name="shopping_list_new">New Shoppinglist...</string>
+    <string name="shopping_list_edit">Edit Shopinglist-Name</string>
+    <string name="shopping_list_letter">S</string>
+
+    <!-- Filters -->
+    <string name="ingridientSpinner">Active</string>
+    <string name="ingredient_filters">Filter-Lists</string>
+    <string name="ingredient_filter">Filter-List</string>
+
+    <!-- ShoppingList -->
+    <string name="shopping_list_title">Shopping-List</string>
+    <string name="shopping_list_article_new">New Article...</string>
+    <string name="shopping_no_list">No Shopping-List</string>
+    <string name="shopping_no_list_message">No Shopping-List was found. Do you want to create one ?</string>
+    <string name="shopping_list_article_edit">Edit Article...</string>
+    <string name="shoppingListArticle">Article</string>
+    <string name="shoppingListQuantity">Quantity</string>
+    <string name="shoppingListUnit">Unit</string>
+    <string name="shoppingListDurability">Durability</string>
+    <string name="shoppingListPlace">Place</string>
+    <string name="shoppingListStore">Store</string>
+
+    <string name="durability">Durability</string>
+    <string name="shopping_list_temp">Temp</string>
+
+    <string name="shopping_lists_key">shopping_lists_key</string>
+    <string name="shopping_list_key">shopping_list_key</string>
+    <string name="shopping_list_user">shopping_list_user</string>
+    <string name="title_article_id">article_id</string>
+    <string name="title_article_name">Name</string>
+    <string name="article_quantity">quantity</string>
+    <string name="unit_id">unit_id</string>
+    <string name="durability_2">15102014</string>
+    <string name="temp">Temp</string>
+    <string name="temp_2">temp</string>
+    <string name="article_bought">article_bought</string>
+    <string name="article_place">article_place</string>
+
+    <string name="shoppingListUnitChoose">Choose a Unit</string>
+
+    <string name="shoppingListSnackbarMoved">Article was moved</string>
+    <string name="shoppingListSnackbarUndo">Undo</string>
+    <string name="shoppingListSnackbarRestore">Article is restored!</string>
+
+    <!-- ShoppingList-Cart -->
+    <string name="shopping_list_cart_moved">Article(s) moved to Stock</string>
+    <string name="shopping_list_cart_no_article">No Article available in your cart</string>
+
+    <!-- Stock -->
+    <string name="stock_title">Stock</string>
+
+    <!-- Cart Fab Button -->
+    <string name="fabTitle_1">Add article</string>
+    <string name="fabTitle_2">Bought</string>
+    <string name="fabTitle_3">Add to favorites</string>
+    <string name="fabTitle_4">Add article to List</string>
+    <string name="fabTitle_5">Add article to Cart</string>
+
+    <string-array name="shoppingListUnits">
+        <item>g</item>
+        <item>kg</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Shopping-List</string>
+    <string name="tab_text_2">Shopping-Cart</string>
+    <string name="tab_text_3">Stock</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="action_search">Search</string>
+
+    <string name="FabTitle1">ABC</string>
+
+    <!-- Store-Position (DEUTSCH) -->
+    <!--<string name="top_fridge">Oberstes Fach</string>
+    <string name="middle_fridge">Mittleres Fach</string>
+    <string name="bottom_fridge">Unteres Fach</string>
+    <string name="veg_drawer">Gemüse Fach</string>
+    <string name="top_door_fridge">Tür-Oberstes Fach</string>
+    <string name="middle_door_fridge">Tür-Mittleres Fach</string>
+    <string name="bottom_door_fridge">Tür-Unteres Fach</string>-->
+
+    <!-- Store-Position (Englisch) -->
+    <string name="top_fridge">Top shelf</string>
+    <string name="middle_fridge">Middle shelf</string>
+    <string name="bottom_fridge">Bottom shelf</string>
+    <string name="veg_drawer">Vegetable Drawer</string>
+    <string name="top_door_fridge">Door-Top-Shelf</string>
+    <string name="middle_door_fridge">Door-Middle-Shelf</string>
+    <string name="bottom_door_fridge">Door-Bottom-Shelf</string>
+    <string name="title_activity_ingredient_filters">IngredientFiltersActivity</string>
+    <string name="title_activity_ingredient_filter">IngredientFilterActivity</string>
+
+    <!-- Ingredient -->
+    <string name="ingredient_filter_new">Add Ingredient...</string>
+    <string name="ingredient_filter_add">Add</string>
+
+</resources>

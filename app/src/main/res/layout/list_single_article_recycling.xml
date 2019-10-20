@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listSingleLayoutRecycling"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imgViewRecycling"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/recycling_image"
+        app:srcCompat="@color/icons" />
+
+    <ImageView
+        android:id="@+id/imgViewTrash"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageViewArrow"
+        android:contentDescription="@string/recycling_image"
+        app:srcCompat="@color/icons" />
+
+    <TextView
+        android:id="@+id/txtRecyclingViewName"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imgViewRecycling"
+        android:text="@string/recycling_name"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRecyclingViewDescription"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtRecyclingViewName"
+        android:layout_toEndOf="@+id/imgViewRecycling"
+        android:text="@string/recycling_description"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageViewArrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgViewRecycling"
+        android:contentDescription="@string/image_title"
+        app:srcCompat="@drawable/ic_action_expand" />
+
+    <TextView
+        android:id="@+id/txtTrashViewName"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageViewArrow"
+        android:layout_toEndOf="@+id/imgViewTrash"
+        android:text="@string/trash_name"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

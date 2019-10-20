@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.toolbardemo.mytestapp.fragment.SettingsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.GridLayout
+            android:id="@+id/gridViewArticle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:columnCount="2"
+            app:rowCount="3">
+
+            <TextView
+                android:id="@+id/textViewOptionWrite"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_write"
+                android:textSize="15sp"/>
+
+
+            <CheckBox
+                android:id="@+id/checkBoxWrite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"/>
+
+            <TextView
+                android:id="@+id/textViewOptionRead"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_read"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxRead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/textViewOptionInternet"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_internet"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxInternet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_torch"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxTorch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/textViewOptionClearCache"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_clear_cache"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/buttonClearFolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_clear" />
+
+
+        </android.support.v7.widget.GridLayout>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

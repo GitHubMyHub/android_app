@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listSingleLayoutShoppingList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewShoppingListsItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtViewTextUserId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/txtViewRoundedLetter"
+                android:layout_toStartOf="@+id/editButton"
+                android:text="@string/user_id"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtViewTextShoppingListsKey"
+                android:layout_width="207dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtViewTextUserId"
+                android:layout_toEndOf="@+id/txtViewRoundedLetter"
+                android:layout_toStartOf="@+id/editButton"
+                android:text="@string/shopping_lists_id"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/txtViewRoundedLetter"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/letter_circle"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/shopping_list_letter"
+                android:textColor="@color/colorWhite"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/txtViewTextshoppingListsName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtViewTextShoppingListsKey"
+                android:layout_toEndOf="@+id/txtViewRoundedLetter"
+                android:layout_toStartOf="@+id/editButton"
+                android:text="@string/article_id"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/txtViewTextShoppingListsBought"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtViewTextshoppingListsName"
+                android:layout_toEndOf="@+id/txtViewRoundedLetter"
+                android:layout_toStartOf="@+id/editButton"
+                android:text="@string/user_id"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/editButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtViewTextShoppingListsBought"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/view"
+                app:srcCompat="@android:drawable/ic_menu_manage" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="64dp"
+                android:background="@color/colorDivider" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

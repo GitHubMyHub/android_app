@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listSingleLayoutShoppingList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewShoppingListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/imageArticleItemView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/ic_cart_black" />
+
+            <TextView
+                android:id="@+id/txtViewTextShoppingListArticleName"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="45dp"
+                android:text="@string/title_article_name" />
+
+            <TextView
+                android:id="@+id/txtViewTextShoppingListQuanity"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtViewTextShoppingListArticleName"
+                android:layout_below="@+id/txtViewTextShoppingListArticleName"
+                android:text="@string/article_quantity"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtViewTextShoppingListDurabilityTitle"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtViewTextShoppingListArticleName"
+                android:layout_below="@+id/txtViewTextShoppingListQuanity"
+                android:text="@string/durability"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtViewTextShoppingListDurability"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtViewTextShoppingListQuanity"
+                android:layout_toEndOf="@+id/txtViewTextShoppingListDurabilityTitle"
+                android:text="@string/durability_2"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtViewTextShoppingListTempTitle"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtViewTextShoppingListArticleName"
+                android:layout_below="@+id/txtViewTextShoppingListDurabilityTitle"
+                android:text="@string/temp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtViewTextShoppingListTemp"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/txtViewTextShoppingListDurability"
+                android:text="@string/temp"
+                android:visibility="visible" />
+
+
+            <ImageButton
+                android:id="@+id/imgEditButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageArticleItemView"
+                android:background="@drawable/ripple"
+                android:src="@drawable/ic_edit_black" />
+
+            <ImageButton
+                android:id="@+id/imgHistoryButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/imageArticleItemView"
+                android:layout_toEndOf="@+id/imgEditButton"
+                android:background="@drawable/ripple"
+                android:src="@drawable/ic_history_black" />
+
+
+            <ImageButton
+                android:id="@+id/imgShoppingButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/imageArticleItemView"
+                android:layout_toStartOf="@+id/imgCartButton"
+                android:background="@drawable/ripple"
+                android:src="@drawable/ic_list_add_black" />
+
+
+            <ImageButton
+                android:id="@+id/imgCartButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/imageArticleItemView"
+                android:background="@drawable/ripple"
+                android:src="@drawable/ic_cart_black" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="64dp"
+                android:background="@color/colorDivider" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

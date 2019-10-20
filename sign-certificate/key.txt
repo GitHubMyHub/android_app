@@ -1,0 +1,9 @@
+FirebaseKeystore
+DoomMortal
+Nightmare666
+
+AC:44:D6:AF:2F:D4:2B:66:18:5E:18:F0:71:F9:68:C8:91:EA:5E:48
+
+
+MyTestApp
+com.toolbardemo.mytestapp

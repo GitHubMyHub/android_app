@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listSingleLayoutFavorite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewFavoriteItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp">
+
+            <ImageView
+                android:id="@+id/imgViewArticle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/news_image" />
+
+            <ProgressBar
+                android:id="@+id/progressBarFavorite"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="13dp" />
+
+            <TextView
+                android:id="@+id/txtViewTextArticleName"
+                android:layout_width="227dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="38dp"
+                android:text="@string/article_name"
+                android:textColor="@color/primary_text"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/imgShoppingButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgViewArticle"
+                android:background="@drawable/ripple"
+                android:src="@drawable/ic_list_add_black" />
+
+            <ImageButton
+                android:id="@+id/imgCartButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/imgViewArticle"
+                android:layout_toEndOf="@+id/imgShoppingButton"
+                android:background="@drawable/ripple"
+                android:src="@drawable/ic_cart_black" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

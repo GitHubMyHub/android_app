@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listSingleLayoutNews"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:paddingBottom="50dp">
+
+    <ImageView
+        android:id="@+id/imgViewNews"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/news_image" />
+
+    <ProgressBar
+        android:id="@+id/progressBarDetailNews"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+
+    <TextView
+        android:id="@+id/txtViewTitleNews"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgViewNews"
+        android:text="@string/news_title"
+        android:textColor="@color/primary_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtViewTextNews"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtViewCreationTimeNews"
+        android:text="@string/news_description"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtViewIdNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtViewCreationTimeNews"
+        android:layout_below="@+id/txtViewCreationTimeNews"
+        android:text="@string/news_position"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtViewCreationTimeNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtViewTitleNews"
+        android:text="@string/news_creationtime" />
+
+</RelativeLayout>

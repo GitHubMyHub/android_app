@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@mipmap/ic_subject_black"
+            android:title="@string/left_nav_news" />
+        <item
+            android:id="@+id/nav_scan_article"
+            android:icon="@mipmap/ic_shopping_cart_black"
+            android:title="@string/left_nav_scan" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings_black"
+            android:title="@string/left_nav_settings" />
+        <item
+            android:id="@+id/nav_scan_article_test"
+            android:icon="@mipmap/ic_shopping_cart_black"
+            android:title="@string/left_nav_testscan" />
+
+        <item
+            android:id="@+id/nav_scan_camera"
+            android:icon="@mipmap/ic_shopping_cart_black"
+            android:title="@string/left_nav_camera" />
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/ic_login_black"
+            android:title="@string/left_nav_login" />
+
+    </group>
+
+    <item android:title="@string/left_nav_divider_1">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_share_black"
+                android:title="@string/left_nav_share" />
+            <item
+                android:id="@+id/nav_impressum"
+                android:icon="@mipmap/ic_send_black"
+                android:title="@string/left_nav_impressum" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

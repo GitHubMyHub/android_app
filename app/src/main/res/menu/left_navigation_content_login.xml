@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@mipmap/ic_subject_black"
+            android:title="@string/left_nav_news" />
+        <item
+            android:id="@+id/nav_scan_article"
+            android:icon="@mipmap/ic_shopping_cart_black"
+            android:title="@string/left_nav_scan" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings_black"
+            android:title="@string/left_nav_settings" />
+        <item
+            android:id="@+id/nav_scan_article_test"
+            android:icon="@mipmap/ic_shopping_cart_black"
+            android:title="@string/left_nav_testscan" />
+
+        <item
+            android:id="@+id/nav_scan_camera"
+            android:icon="@mipmap/ic_shopping_cart_black"
+            android:title="@string/left_nav_camera" />
+
+    </group>
+
+    <item android:title="@string/left_nav_divider_1">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@mipmap/ic_login_black"
+                android:title="@string/left_nav_profile" />
+
+            <item
+                android:id="@+id/nav_shopping_list"
+                android:icon="@mipmap/ic_playlist_add_black"
+                android:title="@string/left_nav_shopping_list" />
+
+            <item
+                android:id="@+id/nav_pantry_list"
+                android:icon="@drawable/ic_pantry_black"
+                android:title="@string/nav_pantry_list" />
+
+            <item
+                android:id="@+id/nav_ingredients_list"
+                android:icon="@drawable/ic_filter_black"
+                android:title="@string/nav_ingredients_list" />
+
+            <item
+                android:id="@+id/nav_filter_list"
+                android:icon="@drawable/ic_filter_black"
+                android:title="@string/nav_filter_list" />
+
+             <item
+                android:id="@+id/nav_favorites"
+                android:icon="@mipmap/ic_favorite_black"
+                android:title="@string/left_nav_favorites" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/ic_exit_to_app_black"
+                android:title="@string/left_nav_logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/left_nav_divider_2">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_share_black"
+                android:title="@string/left_nav_share" />
+            <item
+                android:id="@+id/nav_impressum"
+                android:icon="@mipmap/ic_send_black"
+                android:title="@string/left_nav_impressum" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

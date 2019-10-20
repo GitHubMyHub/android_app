@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/imageViewArticle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/ic_shopping_cart_black" />
+
+    <TextView
+        android:id="@+id/lblDialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtShoppingListArticleName"
+        android:layout_alignBottom="@+id/txtShoppingListArticleName"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/txtShoppingListArticleName"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/shoppingListArticle"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/txtShoppingListArticleName"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtShoppingListArticleQuantity"
+        android:layout_below="@+id/imageViewArticle"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <TextView
+        android:id="@+id/lblShoppingListArticleQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtShoppingListArticleQuantity"
+        android:layout_alignBottom="@+id/txtShoppingListArticleQuantity"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/txtShoppingListArticleQuantity"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/shoppingListQuantity"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/txtShoppingListArticleQuantity"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtShoppingListArticleUnit"
+        android:layout_below="@+id/txtShoppingListArticleName"
+        android:inputType="numberDecimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/lblShoppingListArticleUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtShoppingListArticleDurability"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toStartOf="@+id/txtShoppingListArticleDurability"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/shoppingListUnit"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/txtShoppingListArticleUnit"
+        android:layout_width="121dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtShoppingListArticleQuantity"
+        android:layout_toEndOf="@+id/lblShoppingListArticleUnit"
+        android:inputType="numberDecimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/lblShoppingListArticleDurability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtShoppingListArticleDurability"
+        android:layout_alignBottom="@+id/txtShoppingListArticleDurability"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/shoppingListDurability"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/txtShoppingListArticleDurability"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtShoppingListArticleUnit"
+        android:layout_toEndOf="@+id/lblShoppingListArticleDurability"
+        android:clickable="true"
+        android:entries="@array/shoppingListUnits"
+        android:focusable="false"
+        android:inputType="date|none"
+        android:prompt="@string/shoppingListUnitChoose"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/btnCalender"
+        android:layout_width="67dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/txtShoppingListArticleUnit"
+        android:layout_toEndOf="@+id/txtShoppingListArticleUnit"
+        android:background="@drawable/ripple"
+        android:src="@drawable/ic_calendar_dark" />
+
+    <ImageButton
+        android:id="@+id/btnCalenderPlus"
+        android:layout_width="67dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/txtShoppingListArticleName"
+        android:layout_toEndOf="@+id/txtShoppingListArticleQuantity"
+        android:background="@drawable/ripple"
+        android:src="@drawable/ic_plus_black" />
+
+    <ImageButton
+        android:id="@+id/btnCalenderMinus"
+        android:layout_width="67dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/txtShoppingListArticleName"
+        android:layout_toEndOf="@+id/btnCalenderPlus"
+        android:background="@drawable/ripple"
+        android:src="@drawable/ic_minus_black" />
+
+    <TextView
+        android:id="@+id/lblShoppingListArticleStore"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtShoppingListArticleDurability"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/shoppingListStore"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/txtShoppingListArticleStore"
+        android:layout_width="188dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtShoppingListArticleDurability"
+        android:layout_toEndOf="@+id/lblDialogMessage"
+        android:inputType="numberDecimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/lblShoppingListArticleStoreSub"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtShoppingListArticleStore"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/shoppingListPlace"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/txtShoppingListArticleStoreSub"
+        android:layout_width="188dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtShoppingListArticleStore"
+        android:layout_toEndOf="@+id/lblDialogMessage"
+        android:inputType="numberDecimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.toolbardemo.mytestapp.fragment.FilterFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.GridLayout
+            android:id="@+id/gridViewArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:columnCount="2"
+            app:rowCount="3">
+
+            <TextView
+                android:id="@+id/textViewOption1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_filter_1"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textViewOption2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_filter_2"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textViewOption3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_filter_3"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textViewOption4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_filter_4"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textViewOption5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_filter_5"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textViewOption6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_filter_6"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textViewOption7"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_filter_7"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textViewOption8"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_filter_8"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/switch8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textViewOption9"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/option_filter_9"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/switch9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+        </android.support.v7.widget.GridLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
